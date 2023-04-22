@@ -1,0 +1,14 @@
+.details-hide {
+	display: none;
+}
+
+.secret-hide {
+	display: none;
+}
+.row-background {
+	background-color: #f5f5f5;
+}
+
+.details-btn {
+	cursor: pointer;
+}

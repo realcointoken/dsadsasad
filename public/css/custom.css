@@ -1,0 +1,95 @@
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.customCol {
+	padding-top: 0 !important;
+	padding-right: 0 !important;
+	padding-bottom: 0 !important;
+	padding-left: 0;
+	text-align: right;
+}
+
+.pdl {
+	padding-left: 10px !important;
+}
+
+.icon-cancel {
+	padding-right: 3px;
+}
+@media (min-width: 991px) {
+	.pdr {
+		padding-right: 10px !important;
+	}
+
+	.pdr2 {
+		padding-right: 20px !important;
+	}
+}
+
+.customPanel {
+	width: 100%;
+}
+
+@media (max-width: 376px) {
+	.customPanel {
+		width: 108.5%;
+	}
+}
+
+@media (max-width: 414px) and (min-width: 377px) {
+	.customPanel {
+		width: 107.5%;
+	}
+}
+
+@media (max-width: 825px) and (min-width: 415px) {
+	.customPanel {
+		width: 103.5%;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 826px) {
+	.customPanel {
+		width: 102.5%;
+	}
+}
+
+@media (max-width: 991px) {
+	.customRow2 {
+		width: 97vw;
+	}
+	.customPanel {
+		overflow-x: scroll;
+		margin-left: -13px;
+		margin-bottom: 4px;
+		margin-top: 4px;
+	}
+
+	.customCol {
+		text-align: center;
+	}
+}
+
+@media (max-width: 1300px) {
+	.customBtn {
+		padding: 0.2vw 0.5vw;
+		margin: 3px 10px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.customRow {
+		margin-right: -87px;
+		margin-left: 0px;
+	}
+}
+
+@media (min-width: 1522px) {
+	.customRow {
+		margin-right: -39px;
+	}
+}
